@@ -1,0 +1,107 @@
+html {
+    background-color: #4B0082;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    color: white;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card { 
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(65, 105, 225);
+    border-radius: 8px;
+    margin-bottom: 30px;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.card h1 {
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+
+.card p {
+    font-size: 18px;
+    margin: 0;
+}
+
+.cards-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card1, .card2, .card3 {
+    border-radius: 12px;
+    font-size: 18px;
+    text-align: center;
+    border: 2px solid rgb(211, 211, 211);
+    padding: 40px;   
+    width: 300px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+}
+
+.card1 {
+    background-color: rgb(0, 105, 148);
+}
+
+.card2 {
+    background-color: #C0C0C0; 
+}
+
+.card3 {
+    background-color: rgb(139, 0, 0);
+}
+
+.card1:hover, .card2:hover, .card3:hover {
+    transform: translateY(-5px);
+}
+
+.card1 h2, .card2, .card3, h2 {
+    margin-top: 0;
+}
+
+.card1 h2 {
+    color: black; 
+}
+
+.card2 h2 {
+    color: #2F4F4F; 
+}
+
+.card3 h2 {
+    color: gold;
+}
+
+.card1 p a, .card2 p a, .card3 p a {
+    display: inline-block;
+    background-color: rgb(230, 230, 250);
+    color: #4B0082;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.card1 p a:hover, .card2 p a:hover, .card3 p a:hover {
+    background-color: rgb(230, 230, 250);
+}
+
+.card1, .card2, .card3 {
+    color: black;
+}
